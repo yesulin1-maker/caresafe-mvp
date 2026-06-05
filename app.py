@@ -14,16 +14,16 @@ layout="wide"
 # -----------------------------
 
 if "sos_count" not in st.session_state:
-st.session_state.sos_count = 0
+    st.session_state.sos_count = 0
 
 if "qr_count" not in st.session_state:
-st.session_state.qr_count = 0
+    st.session_state.qr_count = 0
 
 if "guardian_check_count" not in st.session_state:
-st.session_state.guardian_check_count = 0
+    st.session_state.guardian_check_count = 0
 
 if "logs" not in st.session_state:
-st.session_state.logs = []
+    st.session_state.logs = []
 
 # -----------------------------
 
