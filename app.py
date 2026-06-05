@@ -55,15 +55,15 @@ st.divider()
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-st.metric("SOS 호출", f"{st.session_state.sos_count}건")
+    st.metric("SOS 호출", f"{st.session_state.sos_count}건")
 st.caption("대상자가 긴급 도움 요청을 누른 기록")
 
 with col2:
-st.metric("QR 응급정보 열람", f"{st.session_state.qr_count}회")
+    st.metric("QR 응급정보 열람", f"{st.session_state.qr_count}회")
 st.caption("응급정보 화면을 확인한 기록")
 
 with col3:
-st.metric("보호자 확인", f"{st.session_state.guardian_check_count}건")
+    st.metric("보호자 확인", f"{st.session_state.guardian_check_count}건")
 st.caption("보호자가 알림을 확인한 기록")
 
 with col4:
